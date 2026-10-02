@@ -76,6 +76,8 @@ Kogu uuendus lõpeb ühe uue juure kirjutamisega. Kuni uut juurt pole kehtivaks 
 
 ### 4.5 Hetktõmmised ja kloonid
 
+<img width="1166" height="512" alt="image" src="https://github.com/user-attachments/assets/31933824-dc50-4ab1-90d7-170c29ede4ad" />
+
 *Joonis 2. Hetktõmmis jagab plokke praeguse seisuga.*
 
 **Hetktõmmis** (*snapshot*) on lihtsalt teine viidete komplekt samadele plokkidele. Selle loomine võtab sekundi murdosa ja esialgu praktiliselt **null lisaruumi**. Ruumi kulub alles siis, kui andmeid muudetakse, ja ainult muudetud plokkide jagu.
