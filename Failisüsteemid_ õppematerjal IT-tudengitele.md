@@ -52,6 +52,8 @@ Ilma žurnalita võib failisüsteem jääda vastuoluliseks (fail on kataloogis, 
 
 ### 4.2 Kuidas COW samm-sammult töötab
 
+<img width="1221" height="889" alt="image" src="https://github.com/user-attachments/assets/5f39787a-ccd9-4704-bbb5-f19d5bee3511" />
+
 *Joonis 1. Ülal tavaline ülekirjutamine, all copy-on-write.*
 
 Ülemine pool joonisest: plokk B kirjutatakse kohapeal üle. Kui vool kaob keset kirjutamist, on B pooleldi vana ja pooleldi uus ning fail on rikutud. Alumine pool näitab COW-i kolme sammu:
